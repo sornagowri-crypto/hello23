@@ -1,0 +1,51 @@
+<DOCTYPE html>
+    <html lang ="en">
+    <head>
+        <title>login form</title>
+        <meta charset = "UTF-8">
+        <style>
+            body{
+                font-family: arial;
+                position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: auto;
+                justify-content : center;
+            }
+            .container{
+                padding: 0px;
+                text-decoration: none;
+                position :center;
+                justify-content : center;
+                margin: 0px 0px;
+            }
+        </style>
+    </head>
+    <body>
+      <center>  <img src = "image/tce1.jpg"></center>
+        <div class = "container">
+            
+            <center>
+                <h1> LOGIN PAGE </h1><br><br>
+            <form>
+                <header>
+                <lable>NAME : </lable>
+                <input type="text"name = "name" required><br><br>
+                <lable>Email : </lable>
+                <input type="email"name = "email" required><br><br>
+                <lable>Pass Word: </lable>
+                <input type="password" name = "password" required><br><br>
+                <button onclick="login()">LOGIN</button>
+                </header>
+            </form>
+            </center>
+            </div>
+            </body>
+            <script>
+                  function login(){
+                    alert("you have logged in succesfully");
+                  }
+            </script>
+    </html>
+
+
